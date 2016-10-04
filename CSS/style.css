@@ -2,7 +2,7 @@ body {
 	font-family: 'Open-sans'; sans-serif;
 	color: #16181A;
 	background-image: url(../images/grid.jpg);
-	padding: 5px;
+	padding: 2px;
     font-size: 15px;
 }
 img {
@@ -60,10 +60,7 @@ h2 {
 	font-size: 30px;
 	background-color: #16181A;	
 	color: white;
-	margin-top: 17px;
-	margin-left: 5px;	
-	padding-left: 2px;
-
+    padding-left: 1px;
 }
 .follow a:hover {
 	color: white;
