@@ -1,36 +1,59 @@
 body {
-	font-family: 'Open-sans'; sans-serif;
+	font-family: 'Open-sans', sans-serif;
 	color: #16181A;
-	background-image: url(../images/grid.jpg);
+	background-color: #E2E1E2;
 	padding: 2px;
     font-size: 15px;
 }
+
+.card{
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	border-radius: 4px;
+	margin: 10px;
+}
+
 img {
 	width: 320px;
 	border: 3px solid #FFF;
-	padding: 30px;
-}	
+	padding: 10px;
+}
+
+h1, h2, h3, h4{ 
+	font-family: 'Open-sans', sans-serif;
+}
+
 h1 {
 	margin-top: 100px;
 }
+
 h2 {
 	font-size: 35px;
 }
+
 .jumbotron {
 	background-image: url(../images/background.jpg);
 	color: white;
 	text-shadow: 1px 2px 3px black;
 	text-align: center;
-	background-repeat: repeat;
-	margin-top: 70px;
+	background-repeat: no-repeat;
 }
+
 .jumbotron p {
 	font-size: 30px;
 }
-.images {
-	padding: 20px;
+
+#images {
 	text-align: center;
 }
+
+.modal-title, .modal-body {
+	color: black;
+	text-shadow: 1px 2px 3px white;
+}
+
 .navbar-transparent {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -56,16 +79,32 @@ h2 {
 .navbar-transparent .navbar-brand:focus {
   color: white;
 }
-.follow {
-	font-size: 30px;
-	background-color: #16181A;	
-	color: white;
-    padding-left: 1px;
+
+#follow a{
+	color: #4C4C4C;
 }
-.follow a:hover {
-	color: white;
-	size: 50px;
+
+#follow a:hover {
+	color: #818181;
+	text-decoration: none;
 }
-.follow p {
-	font-size: 9px;
+
+#follow p {
+	font-size: 11px;
 }	
+
+.list-inline{ 
+	padding-left: 0;
+}
+
+.text-center{
+	text-align: center;
+	display: inline-block;
+	width: 70px;
+	font-size: 15px;
+	font-family: 'Open-sans', sans-serif;
+}
+
+.fa-twitter, .fa-instagram, .fa-facebook { 
+	font-size: 30px;
+}
